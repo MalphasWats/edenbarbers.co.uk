@@ -1,0 +1,129 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    
+    /*font-weight:normal;*/
+}
+
+/*html
+{
+    border: 1px solid #2994B7;
+    
+    margin: 20px;
+    
+    width:800px;
+}*/
+
+body
+{
+    font-family: 'Abel', Arial, Sans-serif;
+    
+    width: 800px;
+    margin: 20px auto;
+    border: 2px solid #AD1D1E;
+    
+    overflow:auto;
+    
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+    background-position-y: 180px;
+}
+
+header
+{
+    border: 2px solid black;
+    
+    margin: 20px 20px 330px 20px;
+    
+    text-transform: uppercase;
+}
+
+header h1
+{
+    border-bottom: 2px solid black;
+    
+    padding: 10px 20px;
+}
+
+header h1 span
+{
+    color: #AD1D1E;
+    float:right;
+}
+
+header h2
+{
+    color: #AD1D1E;
+    padding: 10px 20px;
+}
+
+section
+{
+    border: 2px solid black;
+    
+    width: 334px;
+    margin: 40px 20px;
+    
+    padding: 10px;
+    
+    display: inline-block;
+}
+
+section h1, section h2
+{
+    color: #AD1D1E;
+}
+
+section h1
+{
+    margin-bottom: 10px;
+}
+
+section h1 span
+{
+    color: black;
+}
+
+ul
+{
+    overflow: auto;
+    list-style-type: none;
+    
+    margin: 0px 20px 20px 0px;
+}
+
+ul li
+{
+    float:right;
+    margin-left: 5px;
+}
+
+ul li a
+{
+    color:transparent;
+    background-image: url("social.png");
+    display: block;
+    
+    height:40px; width: 40px;
+}
+
+ul li a.facebook
+{
+    background-position-x: 200px;
+    background-position-y: -12px;
+}
+
+ul li a.twitter
+{
+    background-position-x: 240px;
+    background-position-y: -12px;
+}
+
+ul li a.instagram
+{
+    background-position-x: 120px;
+    background-position-y: -52px;
+}
